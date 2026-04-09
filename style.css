@@ -1,0 +1,26 @@
+*{
+    margin: 4px;
+    padding: 4px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(241, 50, 72, 0.781);
+    
+}
+.container{
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 136, 0, 0.827);
+}
+#result{
+    margin: 4px;
+    width: 300px;
+
+}
+button{
+    color: white;
+    background-color: black;
+}
