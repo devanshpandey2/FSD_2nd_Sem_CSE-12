@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Marks Management</h2>
+        <div class="data">
+            <label>Student Name: <input type="text" id="name"></label><br>
+            <label>Roll Number: <input type="text" id="roll"></label><br>
+            <label>Math Marks: <input type="number" id="math"></label><br>
+            <label>Science Marks: <input type="number" id="science"></label><br>
+            <label>English Marks: <input type="number" id="english"></label><br>
+            
+        </div>
+        <div>
+            <button onclick="addStudent()">Add Student</button>
+            <button onclick="displayStudents()">Display All Students</button>
+            <button onclick="calculateTotals()">Calculate Totals</button>
+            <button onclick="displayAbove80()">Above 80 Average</button>
+            <button onclick="displayFailed()">Failed Students</button>
+            <button onclick="countStudents()">Count Students</button>
+        </div>
+        
+        <div id="output"></div>
+    </div>
+</body>
+</html>
