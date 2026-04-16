@@ -14,7 +14,7 @@ document.getElementById("changeTextBtn").addEventListener("click", function () {
 // Change background color
 document.getElementById("bgColorBtn").onclick = function () {
     document.body.style.backgroundColor ="red";
-       
+     
 };
 
 // Increase font size
