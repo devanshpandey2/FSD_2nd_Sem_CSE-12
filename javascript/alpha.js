@@ -50,7 +50,7 @@
 // let square=x => x*x;
 // console.log(square(3));
 
-// arrow function with no parameter
+// // arrow function with no parameter
 // const greetuser=() => {
 //     console.log("hello world");
 // }
@@ -72,12 +72,12 @@
 // let evenfilteredarray=evennumbers.filter(num => num%2===0);
 // console.log(evenfilteredarray); // Output: [2, 4, 6, 8, 10]
 
-// reduce on array
-// accumulator is the accumulated value previously returned in the last invocation of the callback, or initialValue, if supplied (see below). currentValue is the current element being processed in the array.
-// if supplied and currentValue is the current 
-// reduce applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value
-
+// // reduce on array
+// // accumulator is the accumulated value previously returned in the last invocation of the callback, or initialValue, if supplied (see below). currentValue is the current element being processed in the array.
+// // if supplied and currentValue is the current 
+// // reduce applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value
 // let sum=[1,2,3,4,5];
 // let total=
-// sum.reduce((a, c) =>a+c,0);
+// sum.reduce((accumulator, currentvalue) =>accumulator+currentvalue,0);
 // console.log(total); // Output: 15
+
