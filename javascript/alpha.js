@@ -81,3 +81,5 @@
 // sum.reduce((accumulator, currentvalue) =>accumulator+currentvalue,0);
 // console.log(total); // Output: 15
 
+
+
