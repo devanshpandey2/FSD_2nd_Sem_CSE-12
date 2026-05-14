@@ -12,7 +12,11 @@ function App() {
 }
 
 export default App;
+<<<<<<< HEAD
 // useState is a hook in React that allows you to add state to functional components. It returns an array with two elements: the current state value and a function to update that state. In the provided code, useState is used to manage the state of a toggle button, where "isOn" represents whether the button is currently on or off, and "setIsOn" is the function used to toggle its state when the button is clicked.
+=======
+
+>>>>>>> 7d622595a5c71147af42381db2cf3f627a2f3110
 // import React from 'react';
 // import { useState } from 'react';
 // function App() {
